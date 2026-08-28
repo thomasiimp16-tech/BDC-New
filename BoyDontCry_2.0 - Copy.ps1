@@ -65,7 +65,7 @@ $LoginBtn.Add_Click({
 
     try {
 
-        $GitHubKey = (Invoke-RestMethod "https://raw.githubusercontent.com/thomasiimp16-tech/BDC-V1/main/key.txt").Trim()
+        $GitHubKey = (Invoke-RestMethod "https://raw.githubusercontent.com/thomasiimp16-tech/BDC-New/main/key.txt").Trim()
 
         if ($KeyBox.Text.Trim() -eq $GitHubKey) {
 
