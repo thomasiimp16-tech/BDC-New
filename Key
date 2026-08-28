@@ -1,6 +1,6 @@
 $UserKey = Read-Host "Enter Key"
 
-$GitHubKey = (irm "https://raw.githubusercontent.com/thomasiimp16-tech/BDC-V1/main/key.txt").Trim()
+$GitHubKey = (irm "https://raw.githubusercontent.com/thomasiimp16-tech/BDC-New/main/key.txt").Trim()
 
 if ($UserKey -ne $GitHubKey) {
     Write-Host "Invalid Key!" -ForegroundColor Red
